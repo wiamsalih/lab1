@@ -1,1 +1,1 @@
-# lab1
+# Lab 1: Introduction to Reachy Mini
