@@ -13,3 +13,7 @@
 ## Reachy Mini in Simulation Mode
 
 <img src="Images/ReachyMiniSimulationWindow.png" alt="Reachy Mini setup" width="500">
+
+## Reachy Mini Conversation App Run
+
+<img src="Images/ReachyMiniConvoAppScreenshot.png" alt="Reachy Mini Convo App" width="500">
