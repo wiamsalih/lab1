@@ -8,3 +8,8 @@
 |   Nophar    |            Windows 11              |           v0.9.34           |               N/A                |
 |   Bailey    |                                    |                             |                                  |
 |   Wiam      |                                    |                             |                                  |
+
+
+## Reachy Mini in Simulation Mode
+
+<img src="Images/ReachyMiniSimulationWindow.png" alt="Reachy Mini setup" width="500">
