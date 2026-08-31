@@ -17,3 +17,10 @@
 ## Reachy Mini Conversation App Run
 
 <img src="Images/ReachyMiniConvoAppScreenshot.png" alt="Reachy Mini Convo App" width="500">
+
+# Run App in Simulation Mode
+
+
+# Creating & Running App
+
+# Testing / Observing / Reflecting
