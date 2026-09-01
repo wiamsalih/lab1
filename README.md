@@ -6,7 +6,7 @@
 | Team Member | Operating System and Architecture  | Reachy Mini Control Version | Installation Issue / Resolution  |
 |-------------|------------------------------------|-----------------------------|----------------------------------|
 |   Nophar    |            Windows 11              |           v0.9.34           |               N/A                |
-|   Bailey    |           macOS 15.7.3             |           v0.9.34           |               N/A                |
+|   Bailey    |        macOS 15.7.3, ARM64         |           v0.9.34           |               N/A                |
 |   Wiam      |                                    |                             |                                  |
 
 
