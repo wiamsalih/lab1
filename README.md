@@ -37,7 +37,7 @@
 - Limitations of the simulator include a lack of free movement, which would have given the robot a much greater understanding of its environment and an enhanced way of interaction with its surroundings. Additionally, it seemed to lack memory; I prompted the robot to look left and move its antennas, and after that execution, when I said, look again, it responded with an error message, saying that it didn't know what I meant.
 
 ### Evidence
-<video src="./Images/reachy-conversation.mp4" controls width="700"></video>
+<video src="Images/reachy-conversation.mp4" controls width="700"></video>
 
 # Creating & Running App
 
