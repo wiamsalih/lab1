@@ -45,6 +45,15 @@
 | neutral | two expressive channels |
 |---|---|
 | ![neutral](Images/neutral.png) | ![two expressive channels](Images/twoexpressivechannels.png) |
+
 # Creating & Running App
+
+## Environment Details
+
+- **Operating System:** Microsoft Windows 11 Home
+- **Architecture:** x64-based PC
+- **Python version:** 3.12.14
+- **Reachy Mini version:** 1.10.0
+- **MuJoCo version:** 3.3.0
 
 # Testing / Observing / Reflecting
