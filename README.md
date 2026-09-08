@@ -57,7 +57,7 @@
 - **MuJoCo version:** 3.3.0
 
 
-# Launch Steps
+## Launch Steps
 
 **Terminal 1 — Simulation daemon**
 ```powershell
