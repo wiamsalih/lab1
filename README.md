@@ -77,14 +77,14 @@
 | Value tried | Observed effect on timing | Observed effect on legibility |
 |---|---|---|
 |30.0 |Moves fairly fast back and forth. |Large range of motion makes movement highly visible. |
-| | | |
+|15.0 |Moves more slowly and takes longer to complete the gesture |Smaller range of motion makes the orientation change less noticeable. |
 
 **Parameter 2:** `TILT_ROLL_DEG`
 
 | Value tried | Observed effect on timing | Observed effect on legibility |
 |---|---|---|
 |15.0 |Smoothly and naturally moves without seeming rushed. |Slight head movement gesture, could be more legible. |
-| | | |
+|25.0 |Takes slightly longer to settle into the tilted position therefore creating more pronounced motion| More noticeable head tilt, making greeting easier to recognize, but begins to feel exaggerated. |
 
 ---
 
@@ -101,9 +101,14 @@
 | NEUTRAL_DURATION_S |1.0 | seconds |
 
 **Why these values:**
-(explain why this combination reads as a clear, legible greeting — not too fast to register, not so slow it feels sluggish)
+This combination balances the movement range, speed, and overall timing so that the greeting is clear without feeling exaggerated or sluggish. the 25 degree yaw provides enough orientation change for the robot to visibly turn to the user, while the 1 second duration gives it a natural pace. The 15 degree roll adds the subtle head gesture that supports the greeting without distracting from the main orientation movement. The 30 degree antenna amplitude gives the user enough time to perceive the complete interaction before the robot returns to neutral. All together, the values create a greeting that is noticeable and expressive while still feeling controlled and natural.
 
 **Anticipated risks transferring to the physical robot:**
-(e.g. torque/speed limits not modeled in simulation, mechanical backlash/vibration on oscillating motions, timing drift from real-time scheduling, confirming the physical neutral pose matches yaw=0/roll=0, safe motor behavior on an abrupt stop)
+- Torque and speed limits: The simulation may not fully model the physical robot's motor torque or speed constraints, so the same movements could behave differently on the hardware.
+- Mechanical backlash and vibration: Repeated antenna oscillations may introduce small vibrations or positional inaccuracies that are not visible in simulation.
+- Real-time scheduling: Timing could vary slightly due to CPU load or real-time scheduling, potentially affecting the consistency of the 0.02-second loop interval.
+- Neutral pose calibration: The physical robot's actual neutral position should be verified to ensure that yaw = 0° and roll = 0° correspond to the intended neutral posture.
+- Abrupt stopping: The robot should avoid abruptly stopping a movement, particularly during the antenna oscillation, since this could cause mechanical stress or an unnatural motion.
+- Combined motion effects: The interaction of yaw, roll, and antenna movements may produce more momentum or vibration together than when tested individually.
 
 # Testing / Observing / Reflecting
