@@ -67,7 +67,7 @@
 
 | **Stage 1/3: Orient** | **Stage 2/3: Greet** | **Stage 3/3: Neutral** |
 |:---:|:---:|:---:|
-| <img src="Images/stage1.png" width="250"> | <img src="Images/stage2.png" width="250"> | <img src="Images/stage3.png" width="250"> |
+| <img src="Images/stage1.png" width="500"> | <img src="Images/stage2.png" width="500"> | <img src="Images/stage3.png" width="500"> |
 | Orients toward the user | Head tilt + antenna movement | Returns to neutral / sleep |
 
 ## Parameter Variations & Observed Effects
