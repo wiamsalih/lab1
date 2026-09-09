@@ -72,18 +72,18 @@
 
 ## Parameter Variations & Observed Effects
 
-**Parameter 1:** `___________________`
+**Parameter 1:** `ANTENNA_AMPLITUDE_DEG`
 
 | Value tried | Observed effect on timing | Observed effect on legibility |
 |---|---|---|
-| | | |
+|30.0 |Moves fairly fast back and forth. |Large range of motion makes movement highly visible. |
 | | | |
 
-**Parameter 2:** `___________________`
+**Parameter 2:** `TILT_ROLL_DEG`
 
 | Value tried | Observed effect on timing | Observed effect on legibility |
 |---|---|---|
-| | | |
+|15.0 |Smoothly and naturally moves without seeming rushed. |Slight head movement gesture, could be more legible. |
 | | | |
 
 ---
@@ -92,13 +92,13 @@
 
 | Parameter | Final value | Unit |
 |---|---|---|
-| ORIENT_YAW_DEG | | degrees |
-| ORIENT_DURATION_S | | seconds |
-| TILT_ROLL_DEG | | degrees |
-| GREETING_DURATION_S | | seconds |
-| ANTENNA_AMPLITUDE_DEG | | degrees |
-| LOOP_INTERVAL_S | | seconds |
-| NEUTRAL_DURATION_S | | seconds |
+| ORIENT_YAW_DEG |25 | degrees |
+| ORIENT_DURATION_S |1.0 | seconds |
+| TILT_ROLL_DEG |15.0 | degrees |
+| GREETING_DURATION_S |3.0 | seconds |
+| ANTENNA_AMPLITUDE_DEG |30.0 | degrees |
+| LOOP_INTERVAL_S |0.02 | seconds |
+| NEUTRAL_DURATION_S |1.0 | seconds |
 
 **Why these values:**
 (explain why this combination reads as a clear, legible greeting — not too fast to register, not so slow it feels sluggish)
