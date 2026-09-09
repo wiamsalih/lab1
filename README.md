@@ -56,7 +56,7 @@
 - **Reachy Mini version:** 1.10.0
 - **MuJoCo version:** 3.3.0
 
-## For App Launch Instructions see the [team_greeting_app README](apps/team_greeting_app/README.md) for details.
+### For App Launch Instructions see the [team_greeting_app README](apps/team_greeting_app/README.md) for details.
 
 ## Validation: Screen Recording
 
