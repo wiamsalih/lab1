@@ -78,11 +78,55 @@ Wait for: `Uvicorn running on http://0.0.0.0:8042`
 ```
 http://localhost:8042
 ```
-Click **👋 Say Hi**. Watch the robot move in Terminal 1's 3D viewer window.
+Click **👋 Say Hi** to watch the robot move in the 3D viewer window.
 
 **Stop**
 - `Ctrl+C` in Terminal 2 (app)
 - `Ctrl+C` in Terminal 1 (daemon)
 
-  
+## Validation — Screen Recording
+
+**Recording:** [![Watch the demo](Images/appthumbnail.png)](Images/reachyapp_demo.mp4)
+
+**What it shows:**
+- Following the 3 cycles, the simulated robot performed as expected. When the app was quit in the second stage, the robot froze mid animation to show that no control loop remains running. When quit in the first and last stages, the robot returns to neutral, as expected.
+
+---
+
+## Parameter Variations & Observed Effects
+
+**Parameter 1:** `___________________`
+
+| Value tried | Observed effect on timing | Observed effect on legibility |
+|---|---|---|
+| | | |
+| | | |
+
+**Parameter 2:** `___________________`
+
+| Value tried | Observed effect on timing | Observed effect on legibility |
+|---|---|---|
+| | | |
+| | | |
+
+---
+
+## Final Candidate Values & Explanation
+
+| Parameter | Final value | Unit |
+|---|---|---|
+| ORIENT_YAW_DEG | | degrees |
+| ORIENT_DURATION_S | | seconds |
+| TILT_ROLL_DEG | | degrees |
+| GREETING_DURATION_S | | seconds |
+| ANTENNA_AMPLITUDE_DEG | | degrees |
+| LOOP_INTERVAL_S | | seconds |
+| NEUTRAL_DURATION_S | | seconds |
+
+**Why these values:**
+(explain why this combination reads as a clear, legible greeting — not too fast to register, not so slow it feels sluggish)
+
+**Anticipated risks transferring to the physical robot:**
+(e.g. torque/speed limits not modeled in simulation, mechanical backlash/vibration on oscillating motions, timing drift from real-time scheduling, confirming the physical neutral pose matches yaw=0/roll=0, safe motor behavior on an abrupt stop)
+
 # Testing / Observing / Reflecting
