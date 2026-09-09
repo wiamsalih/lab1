@@ -65,7 +65,10 @@
 **What it shows:**
 - Following the 3 cycles, the simulated robot performed as expected. When the app was quit in the second stage, the robot froze mid animation to show that no control loop remains running. When quit in the first and last stages, the robot returns to neutral, as expected.
 
----
+| STAGE 1/3 - Orienting toward user | STAGE 2/3 - Greeting (head tilt + antennas) | STAGE 3/3 - Returning to neutral (sleep) |
+|---|---|---|
+| ![1/3](Images/stage1.png) | ![2/3](Images/stage2.png) | ![3/3](Images/stage3.png) |
+----
 
 ## Parameter Variations & Observed Effects
 
