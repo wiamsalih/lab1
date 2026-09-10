@@ -117,11 +117,11 @@ Independent Variable: The distance between the commands given to Reachy.
 Dependent Variable: Whether the robot correctly executes the requested action (pass/fail) and the type of response it gives.
 
 Test Case Table
-| # | Condition             | Expected                                  | Observed                    | Evidence |  Result     |
-|---|-----------------------|-------------------------------------------|---------------------------- |----------|------------ |
-| 1 | Baseline              | Looks Left                                | Looks Left                  |          | [Pass/Fail] |
-| 2 | Moderate Challenge    | Looks Left doesn't respond to follow up.  | Reachy repeats motion       |          | [Pass/Fail] |
-| 3 | Boundary Case         | Looks Left, distracted, doesn't look again| Reachy reorients/looks again|          | [Pass/Fail] |
+| # | Condition             | Expected                                  | Observed                    | Evidence    | Result      |
+|---|-----------------------|-------------------------------------------|-----------------------------|-------------|-------------|
+| 1 | Baseline              | Looks Left                                | Looks Left                  |    00:14    |    Pass     |
+| 2 | Moderate Challenge    | Looks Left doesn't respond to follow up   | Reachy repeats motion       | 00:32, 00:38|    Pass     |
+| 3 | Boundary Case         | Looks Left, distracted, doesn't look again| Reachy reorients/looks again| 00:55, 01:11|    Pass     |
 
 
 
