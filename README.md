@@ -136,6 +136,7 @@ This combination balances the movement range, speed, and overall timing so that 
 - Technical: Monitoring the session length and periodically resetting the app so long conversations don't degrade the quaility of the responses.
 - Interaction Design: If the apps ability to response to a request starts to degrade in quality start having Reachy ask clarifying questions like "did you mean look left again" instead of staying quiet or falling short.
 - **Limitations & Follow up test:**
+- The simulation doesn't account for the app restarts that were not done in section 3, since it wasn't a variable for testing, but was done in our test cases. The follow up test would be run the boundary case twice with everything else being the same, once immediately after a restart and once after a long, multi-turn conversation without restarting, to directly test whether session length is the actual cause.
 
 [▶️ Watch the test cases](Images/reachy-tests.mp4)
 - **Baseline script:** "Look left."
