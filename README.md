@@ -116,7 +116,7 @@ Research Question: Does the Reach mini conversation app correctly execute follow
 Independent Variable: The distance between the commands given to Reachy.
 Dependent Variable: Whether the robot correctly executes the requested action (pass/fail) and the type of response it gives.
 
-Test Case Table
+**Test Case Table**
 | # | Condition             | Expected                                  | Observed                    | Evidence    | Result      |
 |---|-----------------------|-------------------------------------------|-----------------------------|-------------|-------------|
 | 1 | Baseline              | Looks Left                                | Looks Left                  |    00:14    |    Pass     |
@@ -124,7 +124,7 @@ Test Case Table
 | 3 | Boundary Case         | Looks Left, distracted, doesn't look again| Reachy reorients/looks again| 00:55, 01:11|    Pass     |
 
 
-Failure Reflection
+**Failure Reflection**
 
 First Divergence point: No divergence occurred across the three controlled trials, Reachy was able to follow all voice commands and follow-ups. This contracts the informal observation in section 3 where a simple phrased look again failed.
 
