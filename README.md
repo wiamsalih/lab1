@@ -28,9 +28,9 @@
 ## User Interaction
 
 - **Expected:** `The application expects the user to greet Reachy and engage in a simple conversation.`
-- **Observed:** `I greeted Reachy, asked how it felt, and then unexpectedly requested that it dance.`
+- **Observed:** `We greeted Reachy, asked how it felt, and then unexpectedly requested that it dance.`
 - **Robot behaviour:** `Reachy responded quickly and appropriately throughout the interaction. Despite the unexpected dance request, it successfully executed the action without failing or requiring additional clarification.`
-- **Differences:** `The only unexpected response occurred when I greeted the robot as "Reachy." It added the statement "Reachy works for me too" after the greeting, which was somewhat confusing because the meaning of the statement was unclear in the context of the interaction.`
+- **Differences:** `The only unexpected response occurred when we greeted the robot as "Reachy." It added the statement "Reachy works for me too" after the greeting, which was somewhat confusing because the meaning of the statement was unclear in the context of the interaction.`
 
 ## Simulator Strengths
 
@@ -39,7 +39,7 @@
 ## Simulator Limitations
 
 - **Physical/environmental interaction:** `The simulator does not support free physical movement through the environment, limiting the evaluation of how Reachy would navigate physical space or interact with objects and people around it.`
-- **Interaction memory/context:** `The simulator appeared limited in maintaining conversational or interaction context. For example, I prompted the robot to look left and move its antennas. When I subsequently said "look again," it returned an error indicating that it did not understand what I meant. This limits the ability to evaluate how effectively the robot maintains context during an ongoing HRI interaction.`
+- **Interaction memory/context:** `The simulator appeared limited in maintaining conversational or interaction context. For example, we prompted the robot to look left and move its antennas. When we subsequently said "look again," it returned an error indicating that it did not understand what we meant. This limits the ability to evaluate how effectively the robot maintains context during an ongoing HRI interaction.`
 
 ## 3.3 Teleoperation in Simulation mode
 | neutral | two expressive channels |
