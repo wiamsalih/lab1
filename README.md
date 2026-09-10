@@ -133,6 +133,8 @@ This combination balances the movement range, speed, and overall timing so that 
     Observation: In three controlled trials, each preceded by an app restart, 'look again' and 'do that again' were both correctly resolved and executed by Reachy. In the earlier Section 3 session, the same command failed after several prior turns without a restart.
   Inference: We think the earlier failure was caused by accumulated conversational state (build up over a longer session), rather than a general inability to resolve follow up commands.
 - **Migitations:**
+- ** Technical: ** Monitoring the session length and periodically resetting the app so long conversations don't degrade the quaility of the responses.
+- ** Interaction Design: ** If the apps ability to response to a request starts to degrade in quality start having Reachy ask clarifying questions like "did you mean look left again" instead of staying quiet or falling short.
 - **Limitations & Follow up test:**
 
 [▶️ Watch the test cases](Images/reachy-tests.mp4)
