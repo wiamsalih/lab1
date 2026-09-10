@@ -123,3 +123,9 @@ Test Case Table
 | 2 | Moderate Challenge|        |          |          | Timestamp | [Pass/Fail] |
 | 3 | Boundary Case |            |          |          | Timestamp | [Pass/Fail] |
 
+Failure Reflection
+First Divergence point:
+Classify source of failure:
+Evidence vs Inference:
+Migitations:
+Limitations & Follow up test:
