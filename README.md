@@ -112,9 +112,9 @@ This combination balances the movement range, speed, and overall timing so that 
 - **Combined motion effects:** The interaction of yaw, roll, and antenna movements may produce more momentum or vibration together than when tested individually.
 
 # Testing / Observing / Reflecting
-**Research Question:** Does the Reach mini conversation app correctly execute follow up voice commands when the command relies on context from a prior instruction, rather than restating the action explicitly?
-**Independent Variable:** The distance between the associated commands given to Reachy [distance(d)=0,1,2].
-**Dependent Variable:** Whether the robot correctly executes the requested action (pass/fail) and the type of response it gives.
+- **Research Question:** Does the Reach mini conversation app correctly execute follow up voice commands when the command relies on context from a prior instruction, rather than restating the action explicitly?
+- **Independent Variable:** The distance between the associated commands given to Reachy [distance(d)=0,1,2].
+- **Dependent Variable:** Whether the robot correctly executes the requested action (pass/fail) and the type of response it gives.
 
 **Test Case Table**
 | # | Condition               | Expected                                  | Observed                    | Evidence    | Result      |
