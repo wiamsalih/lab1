@@ -126,7 +126,9 @@ This combination balances the movement range, speed, and overall timing so that 
 **Failure Reflection:**
 - **First Divergence point:** No divergence occurred across the three controlled trials, Reachy was able to follow all voice commands and follow-ups. This contracts the informal observation in section 3 where a simple phrased look again failed.
 - **Classify source of failure:** Since no failure occurred here, the classification instead applies to the earlier Section 3 failure of the follow up voice commands which would be classified as a sensing and perception issue because the robot doesn't understand what the users input is referred to. Possible explanations worth listing as inference could be that in section 3 between the test runs the app wasn't restarted and since Reachy had a lot of information at once its likely that it was confused. In our test cases the app was restarted for each condition making it easier for Reachy to follow up with our commands.
-- **Evidence vs Inference:** 
+- **Evidence vs Inference:**
+    Observation: In three controlled trials, each preceded by an app restart, 'look again' and 'do that again' were both correctly resolved and executed by Reachy. In the earlier Section 3 session, the same command failed after several prior turns without a restart.
+  Inference: We think the earlier failure was caused by accumulated conversational state (build up over a longer session), rather than a general inability to resolve follow up commands.
 - **Migitations:**
 - **Limitations & Follow up test:**
 
