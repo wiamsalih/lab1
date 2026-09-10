@@ -133,5 +133,6 @@ This combination balances the movement range, speed, and overall timing so that 
 - **Limitations & Follow up test:**
 
 [▶️ Watch the test cases](Images/reachy-tests.mp4)
-- **Baseline script:** "Look left"
-- **Challenge script
+- **Baseline script:** "Look left."
+- **Challenge script:** "Look left.", "Look again."
+- **Boundary script:** "Look left.", "How are you?", "Look again."
