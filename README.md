@@ -135,8 +135,7 @@ This combination balances the movement range, speed, and overall timing so that 
 - **Migitations:**
     - **Technical:** Program Reachy to have more computing memory so that, if information capacity is the root cause, it occurs less frequently.
     - **Interaction Design:** Having Reachy prompt the user to be more specific when it is struggling with a follow-up command. For example, if Reachy fails when the user says "Look again" because of a potential information overload, Reachy could be programmed to respond with "Look where?" instead of simply saying "I don't understand". This gives the user clearer feedback and allows for better troubleshooting. Reachy could also be programmed to remind the user periodically to restart the app in order to save information capacity. 
-- **Limitations & Follow up test:**
-- The simulation doesn't account for the app restarts that were not done in section 3, since it wasn't a variable for testing, but was done in our test cases. The follow up test would be run the boundary case twice with everything else being the same, once immediately after a restart and once after a long, multi-turn conversation without restarting, to directly test whether session length is the actual cause.
+- **Limitations & Follow up test:** Our simulation doesn't account for the lack of app restarts that we now hypothesize caused the failures in section 3, since it wasn't our independent variable and we did restart the app each time. A follow-up test that addresses thus would be to run the boundary multiple times with everything else being the same, once immediately after a restart and for various conversation lengths without restarting. This would directly test whether session length is the actual cause.
 
 [▶️ Watch the test cases](Images/reachy-tests.mp4)
 - **Baseline script:** "Look left."
