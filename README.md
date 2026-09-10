@@ -112,22 +112,24 @@ This combination balances the movement range, speed, and overall timing so that 
 - **Combined motion effects:** The interaction of yaw, roll, and antenna movements may produce more momentum or vibration together than when tested individually.
 
 # Testing / Observing / Reflecting
-Research Question: Does the Reach mini conversation app correctly execute follow up voice commands when the command relies on context from a prior instruction, rather than restating the action explicitly?
-Independent Variable: The distance between the commands given to Reachy.
+**Research Question:** Does the Reach mini conversation app correctly execute follow up voice commands when the command relies on context from a prior instruction, rather than restating the action explicitly?
+Independent Variable: The distance between the associated commands given to Reachy [distance(d)=0,1,2].
 Dependent Variable: Whether the robot correctly executes the requested action (pass/fail) and the type of response it gives.
 
 **Test Case Table**
-| # | Condition             | Expected                                  | Observed                    | Evidence    | Result      |
-|---|-----------------------|-------------------------------------------|-----------------------------|-------------|-------------|
-| 1 | Baseline              | Looks Left                                | Looks Left                  |    00:14    |    Pass     |
-| 2 | Moderate Challenge    | Looks Left doesn't respond to follow up   | Reachy repeats motion       | 00:32, 00:38|    Pass     |
-| 3 | Boundary Case         | Looks Left, distracted, doesn't look again| Reachy reorients/looks again| 00:55, 01:11|    Pass     |
+| # | Condition               | Expected                                  | Observed                    | Evidence    | Result      |
+|---|-------------------------|-------------------------------------------|-----------------------------|-------------|-------------|
+| 1 | Baseline (d=0)          | Looks Left                                | Looks Left                  |    00:14    |    Pass     |
+| 2 | Moderate Challenge (d=1)| Looks Left doesn't respond to follow up   | Reachy repeats motion       | 00:32, 00:38|    Pass     |
+| 3 | Boundary Case (d=2)     | Looks Left, distracted, doesn't look again| Reachy reorients/looks again| 00:55, 01:11|    Pass     |
 
 **Failure Reflection:**
 - **First Divergence point:** No divergence occurred across the three controlled trials, Reachy was able to follow all voice commands and follow-ups. This contracts the informal observation in section 3 where a simple phrased look again failed.
 - **Classify source of failure:** Since no failure occurred here, the classification instead applies to the earlier Section 3 failure of the follow up voice commands which would be classified as a sensing and perception issue because the robot doesn't understand what the users input is referred to. Possible explanations worth listing as inference could be that in section 3 between the test runs the app wasn't restarted and since Reachy had a lot of information at once its likely that it was confused. In our test cases the app was restarted for each condition making it easier for Reachy to follow up with our commands.
-- **Evidence vs Inference:**
+- **Evidence vs Inference:** 
 - **Migitations:**
 - **Limitations & Follow up test:**
 
 [▶️ Watch the test cases](Images/reachy-tests.mp4)
+- **Baseline script:** "Look left"
+- **Challenge script
