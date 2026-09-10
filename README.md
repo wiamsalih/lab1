@@ -123,8 +123,7 @@ Dependent Variable: Whether the robot correctly executes the requested action (p
 | 2 | Moderate Challenge    | Looks Left doesn't respond to follow up   | Reachy repeats motion       | 00:32, 00:38|    Pass     |
 | 3 | Boundary Case         | Looks Left, distracted, doesn't look again| Reachy reorients/looks again| 00:55, 01:11|    Pass     |
 
-
-**Failure Reflection**
+**Failure Reflection:**
 - **First Divergence point:** No divergence occurred across the three controlled trials, Reachy was able to follow all voice commands and follow-ups. This contracts the informal observation in section 3 where a simple phrased look again failed.
 - **Classify source of failure:** Since no failure occurred here, the classification instead applies to the earlier Section 3 failure of the follow up voice commands which would be classified as a sensing and perception issue because the robot doesn't understand what the users input is referred to. Possible explanations worth listing as inference could be that in section 3 between the test runs the app wasn't restarted and since Reachy had a lot of information at once its likely that it was confused. In our test cases the app was restarted for each condition making it easier for Reachy to follow up with our commands.
 - **Evidence vs Inference:**
