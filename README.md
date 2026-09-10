@@ -129,3 +129,4 @@ Classify source of failure:
 Evidence vs Inference:
 Migitations:
 Limitations & Follow up test:
+[▶️ Watch the test cases](Images/reachy-conversation.mp4)
