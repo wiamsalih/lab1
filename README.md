@@ -112,3 +112,14 @@ This combination balances the movement range, speed, and overall timing so that 
 - Combined motion effects: The interaction of yaw, roll, and antenna movements may produce more momentum or vibration together than when tested individually.
 
 # Testing / Observing / Reflecting
+Research Question:
+Independent Variable:
+Dependent Variable: 
+
+Test Case Table
+| # | Condition | Command Given | Expected | Observed | Evidence   |   Result   |
+|---|-----------|----------------|----------|----------|---------- |------------ |
+| 1 | Baseline |                 |          |          | Timestamp | [Pass/Fail] |
+| 2 | Moderate Challenge|        |          |          | Timestamp | [Pass/Fail] |
+| 3 | Boundary Case |            |          |          | Timestamp | [Pass/Fail] |
+
